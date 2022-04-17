@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="user-dashboard-house.css">
+ <title>User Dashboard Home</title>
+</head>
+
+<body>
+
+ <div id="topnav"></div>
+
+ <a href="/index.html">Go Back</a>
+ <h3>User Dashboard House</h3>
+
+ <div id="userhousedash">
+
+  <div id="icons">
+   <i class="fa fa-home active iconcolor" style="font-size: 56px;"></i>
+   <i class="fa fa-car iconcolor" style="font-size: 50px;"></i>
+   <i class="fa fa-bus iconcolor" style="font-size: 50px;"></i>
+   <i class="fa fa-plane iconcolore" style="font-size: 50px;"></i>
+   <i class="fa fa-train iconcolor" style="font-size: 50px;"></i>
+  </div>
+ 
+  <div id="datareg">
+   <form action="" id="powerdata">
+   
+    <div id="elect">
+     <label for="elect" class="col-left">Electricity:</label>
+     <input type="text" name="elect" class="form-elect-input">
+   
+     <label for="kwh" class="col-left">KWh at a factor of:</label>
+     <input type="text" name="kwh" class="form-elect-input">
+     <label for="kwh" class="col-left">KgC0<sub>2</sub>/KWh</label><br><br>
+    </div>
+   
+    <div class="details">
+     <label for="gas" class="col-left">Gas:</label>
+     <input type="text" name="gas" class="form-input"><br><br>
+    </div>
+   
+    <div class="details">
+     <label for="coal" class="col-left">Coal:</label>
+     <input type="text" name="coal" class="form-input"><br><br>
+    </div>
+   
+    <div class="details">
+     <label for="wood" class="col-left">Wood:</label>
+     <input type="text" name="wood" class="form-input"><br><br>
+    </div>
+   
+   
+    <div id="btn">
+     <button type="reset" id="reset">Cancel</button>
+     <button type="submit" id="calc">Calculate footprint</button>
+    </div>
+   </form>
+  </div>
+
+  <div id="winclose">
+   <button type="submit" name="close" id="btnclose">
+    <i class="fa fa-times-circle-o"></i>
+   </button>
+  </div>
+
+ </div>
+</body>
+
+</html>

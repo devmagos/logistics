@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(204, 218, 204);
+}
+
+#admin-text {
+ text-align: center;
+}
+
+#container {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.details {
+ width: 100%;
+ color: #000;
+ font-size: large;
+ font-weight: 500;
+ margin-top: 10px;
+ text-align: center;
+}
+
+
+#man {
+
+}
+
+#btn {
+ margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+#register {
+  background-color: rgb(140, 140, 235);
+  color: #fff;
+  padding: 4px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+}
+
+.col-right {
+ display: inline-block;
+ text-align: right;
+ width: 45%;
+ height: 30px;
+}
+
+.col-left {
+ display: inline-block;
+ width: 15%;
+ text-align: left;
+ margin-right: 10px;
+}
